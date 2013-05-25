@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16ABE6391751404F0057DA6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABE6381751404F0057DA6F /* UIKit.framework */; };
+		16ABE63B1751404F0057DA6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABE63A1751404F0057DA6F /* Foundation.framework */; };
+		16ABE63D1751404F0057DA6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ABE63C1751404F0057DA6F /* CoreGraphics.framework */; };
+		16ABE6431751404F0057DA6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16ABE6411751404F0057DA6F /* InfoPlist.strings */; };
+		16ABE6451751404F0057DA6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16ABE6441751404F0057DA6F /* main.m */; };
+		16ABE649175140500057DA6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16ABE648175140500057DA6F /* AppDelegate.m */; };
+		16ABE64B175140500057DA6F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 16ABE64A175140500057DA6F /* Default.png */; };
+		16ABE64D175140500057DA6F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16ABE64C175140500057DA6F /* Default@2x.png */; };
+		16ABE64F175140500057DA6F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16ABE64E175140500057DA6F /* Default-568h@2x.png */; };
+		16ABE652175140500057DA6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16ABE651175140500057DA6F /* ViewController.m */; };
+		16ABE655175140500057DA6F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16ABE653175140500057DA6F /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16ABE6341751404F0057DA6F /* RKCurvySlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKCurvySlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16ABE6381751404F0057DA6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16ABE63A1751404F0057DA6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16ABE63C1751404F0057DA6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16ABE6401751404F0057DA6F /* RKCurvySlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RKCurvySlider-Info.plist"; sourceTree = "<group>"; };
+		16ABE6421751404F0057DA6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16ABE6441751404F0057DA6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16ABE6461751404F0057DA6F /* RKCurvySlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RKCurvySlider-Prefix.pch"; sourceTree = "<group>"; };
+		16ABE6471751404F0057DA6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16ABE648175140500057DA6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16ABE64A175140500057DA6F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		16ABE64C175140500057DA6F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		16ABE64E175140500057DA6F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		16ABE650175140500057DA6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16ABE651175140500057DA6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16ABE654175140500057DA6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16ABE6311751404F0057DA6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16ABE6391751404F0057DA6F /* UIKit.framework in Frameworks */,
+				16ABE63B1751404F0057DA6F /* Foundation.framework in Frameworks */,
+				16ABE63D1751404F0057DA6F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16ABE6291751404F0057DA6F = {
+			isa = PBXGroup;
+			children = (
+				16ABE63E1751404F0057DA6F /* RKCurvySlider */,
+				16ABE6371751404F0057DA6F /* Frameworks */,
+				16ABE6351751404F0057DA6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16ABE6351751404F0057DA6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16ABE6341751404F0057DA6F /* RKCurvySlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16ABE6371751404F0057DA6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16ABE6381751404F0057DA6F /* UIKit.framework */,
+				16ABE63A1751404F0057DA6F /* Foundation.framework */,
+				16ABE63C1751404F0057DA6F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16ABE63E1751404F0057DA6F /* RKCurvySlider */ = {
+			isa = PBXGroup;
+			children = (
+				16ABE6471751404F0057DA6F /* AppDelegate.h */,
+				16ABE648175140500057DA6F /* AppDelegate.m */,
+				16ABE650175140500057DA6F /* ViewController.h */,
+				16ABE651175140500057DA6F /* ViewController.m */,
+				16ABE653175140500057DA6F /* ViewController.xib */,
+				16ABE63F1751404F0057DA6F /* Supporting Files */,
+			);
+			path = RKCurvySlider;
+			sourceTree = "<group>";
+		};
+		16ABE63F1751404F0057DA6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16ABE6401751404F0057DA6F /* RKCurvySlider-Info.plist */,
+				16ABE6411751404F0057DA6F /* InfoPlist.strings */,
+				16ABE6441751404F0057DA6F /* main.m */,
+				16ABE6461751404F0057DA6F /* RKCurvySlider-Prefix.pch */,
+				16ABE64A175140500057DA6F /* Default.png */,
+				16ABE64C175140500057DA6F /* Default@2x.png */,
+				16ABE64E175140500057DA6F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16ABE6331751404F0057DA6F /* RKCurvySlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16ABE658175140500057DA6F /* Build configuration list for PBXNativeTarget "RKCurvySlider" */;
+			buildPhases = (
+				16ABE6301751404F0057DA6F /* Sources */,
+				16ABE6311751404F0057DA6F /* Frameworks */,
+				16ABE6321751404F0057DA6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RKCurvySlider;
+			productName = RKCurvySlider;
+			productReference = 16ABE6341751404F0057DA6F /* RKCurvySlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16ABE62B1751404F0057DA6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Milad Rezazadeh";
+			};
+			buildConfigurationList = 16ABE62E1751404F0057DA6F /* Build configuration list for PBXProject "RKCurvySlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16ABE6291751404F0057DA6F;
+			productRefGroup = 16ABE6351751404F0057DA6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16ABE6331751404F0057DA6F /* RKCurvySlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16ABE6321751404F0057DA6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16ABE6431751404F0057DA6F /* InfoPlist.strings in Resources */,
+				16ABE64B175140500057DA6F /* Default.png in Resources */,
+				16ABE64D175140500057DA6F /* Default@2x.png in Resources */,
+				16ABE64F175140500057DA6F /* Default-568h@2x.png in Resources */,
+				16ABE655175140500057DA6F /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16ABE6301751404F0057DA6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16ABE6451751404F0057DA6F /* main.m in Sources */,
+				16ABE649175140500057DA6F /* AppDelegate.m in Sources */,
+				16ABE652175140500057DA6F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16ABE6411751404F0057DA6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16ABE6421751404F0057DA6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16ABE653175140500057DA6F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16ABE654175140500057DA6F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16ABE656175140500057DA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16ABE657175140500057DA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16ABE659175140500057DA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RKCurvySlider/RKCurvySlider-Prefix.pch";
+				INFOPLIST_FILE = "RKCurvySlider/RKCurvySlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16ABE65A175140500057DA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RKCurvySlider/RKCurvySlider-Prefix.pch";
+				INFOPLIST_FILE = "RKCurvySlider/RKCurvySlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16ABE62E1751404F0057DA6F /* Build configuration list for PBXProject "RKCurvySlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16ABE656175140500057DA6F /* Debug */,
+				16ABE657175140500057DA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16ABE658175140500057DA6F /* Build configuration list for PBXNativeTarget "RKCurvySlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16ABE659175140500057DA6F /* Debug */,
+				16ABE65A175140500057DA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16ABE62B1751404F0057DA6F /* Project object */;
+}
